@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sidebar Responsive</title>
+</head>
+
+<body>
+    <aside class="sidebar">
+        <header class="sidebar-header">
+            <img class="logo-img"
+                src="https://scontent.fgru4-1.fna.fbcdn.net/v/t39.30808-6/279133374_5012332692181831_7969194593152530433_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=pTTX6-gnXCUAX83A6sn&tn=faeBH8lLbX9jJBDN&_nc_ht=scontent.fgru4-1.fna&oh=00_AfCoXCvoPpuPJeVjixxU7DxHPhPdwwbIqfjro1RuvhjV7A&oe=63EEAF89"
+                alt="foto-do-usario">
+        </header>
+
+        <nav>
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> home </i>
+                    <span>Home</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> tag </i>
+                    <span>Explorar</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> email </i>
+                    <span>Mensagens</span>
+                </span>
+            </button>
+
+            <button>
+                <span>
+                    <i class="material-symbols-outlined"> person </i>
+                    <span>Profile</span>
+                </span>
+            </button>
+        </nav>
+    </aside>
+
+    <button class="button-mobile" onclick="toggleMenu()">
+        <i class="material-symbols-outlined"> menu </i>
+        <span>Menu</span>
+    </button>
+
+    <nav class="menu-mobile" id="menu-mobile">
+        <button class="button-close" onclick="toggleMenu()">
+            <span>
+                <i class="material-symbols-outlined"> close </i>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined"> home </i>
+                <span class="mobile-text">Home</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined"> tag </i>
+                <span class="mobile-text">Explorar</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined"> email </i>
+                <span class="mobile-text">Mensagens</span>
+            </span>
+        </button>
+
+        <button>
+            <span>
+                <i class="material-symbols-outlined"> person </i>
+                <span class="mobile-text">Profile</span>
+            </span>
+        </button>
+    </nav>
+
+    <main class="main">
+        <h1>Bem vindo ao Site</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nobis obcaecati rerum sit molestias eos, similique
+            ipsa impedit quisquam assumenda. Impedit doloribus hic, quasi illum ut vitae eum esse doloremque recusandae.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non cum, enim quidem voluptatibus necessitatibus
+            nihil fugiat velit porro, rem in quo beatae tempore quasi iste voluptatum explicabo dicta eius nulla. Lorem
+            ipsum dolor sit, amet consectetur adipisicing elit. Magnam voluptatem repellendus fugit quos, consectetur
+            optio fuga eum error ea vel ipsam nulla explicabo officia consequuntur rem. At pariatur consequuntur quae.
+        </p>
+    </main>
+</body>
+<script src="./script.js"></script>
+
+</html>
