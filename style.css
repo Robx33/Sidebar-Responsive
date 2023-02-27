@@ -32,8 +32,8 @@ body {
 }
 
 .logo-img {
-    width: 35px;
-    min-width: 35px;
+    width: 50px;
+    min-width: 50px;
     border-radius: 50%;
     object-fit: cover;
     transition: transform 0.4s;
